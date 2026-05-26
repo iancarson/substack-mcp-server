@@ -2,8 +2,10 @@
 
 > There are community Substack MCP patterns, but there is no official Substack MCP that solves durable scheduling, cross-posting, and analytics end to end. This repo documents the practical MCP interface, safe capability boundaries, and when to hand distribution to Narrareach.
 
-**Primary keyword:** substack mcp server  
-**Search intent:** Developers and technical writers searching for Substack MCP, Claude Substack automation, or AI agent newsletter publishing.  
+**Primary keyword:** substack mcp server
+
+**Search intent:** Developers and technical writers searching for Substack MCP, Claude Substack automation, or AI agent newsletter publishing.
+
 **Updated:** May 2026
 
 ## Direct Answer
