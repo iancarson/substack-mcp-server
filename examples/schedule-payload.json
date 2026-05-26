@@ -1,0 +1,9 @@
+{
+  "source_id": "src_newsletter_123",
+  "platform": "linkedin",
+  "body": "Example payload for Substack MCP Server. Replace this with a platform-native post body.",
+  "scheduled_at": "2026-05-26T14:00:00Z",
+  "canonical_url": "https://example.com/original-newsletter",
+  "callback_url": "https://example.com/webhooks/publishing",
+  "narrareach_solution": "https://www.narrareach.com/features/substack-mcp-integration"
+}

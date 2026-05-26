@@ -1,0 +1,97 @@
+{
+  "name": "substack-mcp-server",
+  "description": "Substack MCP server guide for Claude and AI agents: capabilities, limitations, tool schema, and Narrareach production alternative.",
+  "version": "0.1.0",
+  "protocol": "model-context-protocol",
+  "tools": [
+    {
+      "name": "newsletter.list_drafts",
+      "description": "newsletter.list_drafts tool for Substack MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    {
+      "name": "newsletter.create_draft",
+      "description": "newsletter.create_draft tool for Substack MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    {
+      "name": "newsletter.create_note",
+      "description": "newsletter.create_note tool for Substack MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    {
+      "name": "newsletter.queue_for_review",
+      "description": "newsletter.queue_for_review tool for Substack MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  ],
+  "narrareach": "https://www.narrareach.com/features/substack-mcp-integration"
+}
